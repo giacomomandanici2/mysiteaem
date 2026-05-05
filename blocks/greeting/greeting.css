@@ -1,0 +1,28 @@
+.greeting {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.greeting h2 {
+  margin: 0 0 0.5rem;
+}
+
+.greeting-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  color: #667eea;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.greeting-btn:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,29 @@
+.greeting-container {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+.greeting-text {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.greeting-title {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.greeting-subtitle {
+    margin-bottom: 1.5rem;
+    opacity: 0.85;
+}
+
+.greeting-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

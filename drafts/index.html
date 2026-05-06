@@ -1,5 +1,56 @@
-<main>
-  <div>
-    <div class="greeting">Hello Giacomo</div>
-  </div>
-</main>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'nonce-aem' 'strict-dynamic' 'unsafe-inline' http: https:; base-uri 'self'; object-src 'none';"
+      move-to-http-header="true"
+    />
+    <script nonce="aem" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Page not found" />
+    <script nonce="aem" src="/scripts/scripts.js" type="module"></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <style>
+      main.error {
+        min-height: calc(100vh - var(--nav-height));
+        display: flex;
+        align-items: center;
+      }
+
+      main.error .error-number {
+        width: 100%;
+      }
+
+      main.error .error-number text {
+        font-family: monospace;
+      }
+    </style>
+    <link rel="stylesheet" href="/styles/lazy-styles.css" />
+  </head>
+
+  <body>
+    <header></header>
+    <main class="error">
+      <div class="section">
+        <div class="greeting">Hello Giacomo</div>
+        <div class="card">
+          <div>
+            <picture>
+              <img
+                src="https://via.placeholder.com/400x225"
+                alt="Example image"
+              />
+            </picture>
+          </div>
+          <div>
+            <h3>Titolo Card</h3>
+            <p>Descrizione della card con qualche dettaglio interessante.</p>
+            <a href="#">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
